@@ -24,6 +24,16 @@ const Achievments = () => {
             icon: <Trophy className='w-8 h-8' />,
             description: "Achieved 5-star rating in Java programming on HackerRank platform"
         },
+        {
+            title: "HackerRank Five Star Coder in Java",
+            icon: <Trophy className='w-8 h-8' />,
+            description: "Achieved 5-star rating in Java programming on HackerRank platform"
+        },
+        {
+            title: "HackerRank Five Star Coder in Java",
+            icon: <Trophy className='w-8 h-8' />,
+            description: "Achieved 5-star rating in Java programming on HackerRank platform"
+        },
     ]
 
 
@@ -31,7 +41,7 @@ const Achievments = () => {
     return (
         <>
             <section id='achievements'
-                className='py-32 bg-[#050816] relative overflow-hidden'>
+                className='py-50 bg-[#050816] relative overflow-hidden'>
                 <div className='absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-violet-500/20 via-transparent to-transparent' />
 
                 <div className='max-w-7xl h-full mx-auto px-6 relative'>
