@@ -62,3 +62,126 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+body{
+  background-color: #050816;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hero, .intro, .outro {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+}
+
+
+.intro, 
+.outro {
+  background-color: #050816;
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow-x: hidden;
+
+  h1{
+    margin-bottom: 0;
+  }
+}
+
+.card {
+  position: relative;
+}
+
+.card-inner {
+  position: relative;
+  will-change: transform;
+  width: 100vw;
+  height: 100%;
+  padding: 2em;
+  display: flex;
+  gap: 4em;
+  overflow-x: hidden;
+
+}
+
+.card-content {
+  flex: 3;
+}
+
+.language {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.card-img {
+  flex: 1;
+  aspect-ratio: 16/12;
+  border-radius: 0.75em;
+  overflow: hidden;
+}
+
+#card-1 .card-inner {
+  border-top:2px solid #aaa6c3;
+  border-left:2px solid #aaa6c3;
+  border-radius: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+#card-2 .card-inner {
+  border-top:2px solid #aaa6c3;
+  border-left:2px solid #aaa6c3;
+  border-radius: 1rem;
+  background-color: #222831;
+  color: #ffffff;
+}
+
+#card-3 .card-inner {
+  border-top:2px solid #aaa6c3;
+  border-left:2px solid #aaa6c3;
+  border-radius: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+#card-4 .card-inner {
+  border-top:2px solid #aaa6c3;
+  border-left:2px solid #aaa6c3;
+  border-radius: 1rem;
+  background-color: #222831;
+  color: #ffffff;
+
+}
+
+@media (max-width: 900px) {
+  h1 {
+    margin-bottom: 4rem;
+  }
+
+  .card-img, .card-content p {
+    display: none;
+  }
+
+  .card {
+    height: 300px;
+  }
+}
