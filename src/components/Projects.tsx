@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 import { ReactLenis } from "@studio-freight/react-lenis";
 import "../index.css";
-import "../../public/img.jpg"
+import About from './About'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -114,7 +114,10 @@ const Projects = () => {
                 </section> */}
                 <section className="intro">
                     <h1>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam molestias ratione explicabo, iure eveniet repellendus rem perferendis ipsum sequi adipisci? Voluptas accusantium voluptate itaque voluptatem ipsa non molestiae alias.
+                        <About
+                            hoverText="Not a decade, actually a university student who is just actively producing cool shit since 2022 and navigating to my career."
+                            normalText="Over a decade of experience in interactive design and working with some of the most talented people in the business."
+                        />
                     </h1>
                 </section>
                 <section className="cards">
@@ -124,7 +127,10 @@ const Projects = () => {
                 </section>
                 <section className="outro">
                     <h1>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores neque soluta provident consectetur repellendus eius labore expedita molestiae cum illo amet aspernatur sunt maxime nesciunt at, modi qui. Quia, deleniti.
+                        <About
+                            hoverText="Not a decade, actually a university student who is just actively producing cool shit since 2022 and navigating to my career."
+                            normalText="Over a decade of experience in interactive design and working with some of the most talented people in the business."
+                        />
                     </h1>
                 </section>
             </div>
